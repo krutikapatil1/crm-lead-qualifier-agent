@@ -1,0 +1,420 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/krutikapatil/ik-docs/.npmrc
+5 silly config load:file:/Users/krutikapatil/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/krutikapatil/ik-docs/.npm-cache/_logs/2026-07-29T23_50_36_981Z-
+10 verbose logfile /Users/krutikapatil/ik-docs/.npm-cache/_logs/2026-07-29T23_50_36_981Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+16 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+16 silly audit   '@babel/parser': [ '7.29.7' ],
+16 silly audit   '@babel/types': [ '7.29.7' ],
+16 silly audit   '@docsearch/css': [ '4.7.0' ],
+16 silly audit   '@docsearch/js': [ '4.7.0' ],
+16 silly audit   '@docsearch/sidepanel-js': [ '4.7.0' ],
+16 silly audit   '@emnapi/core': [ '2.0.0-alpha.3', '1.11.1' ],
+16 silly audit   '@emnapi/runtime': [ '2.0.0-alpha.3', '1.11.1' ],
+16 silly audit   '@emnapi/wasi-threads': [ '2.0.1', '1.2.2' ],
+16 silly audit   '@esbuild/aix-ppc64': [ '0.28.1' ],
+16 silly audit   '@esbuild/android-arm': [ '0.28.1' ],
+16 silly audit   '@esbuild/android-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/android-x64': [ '0.28.1' ],
+16 silly audit   '@esbuild/darwin-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/darwin-x64': [ '0.28.1' ],
+16 silly audit   '@esbuild/freebsd-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/freebsd-x64': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-arm': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-ia32': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-loong64': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-mips64el': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-ppc64': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-riscv64': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-s390x': [ '0.28.1' ],
+16 silly audit   '@esbuild/linux-x64': [ '0.28.1' ],
+16 silly audit   '@esbuild/netbsd-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/netbsd-x64': [ '0.28.1' ],
+16 silly audit   '@esbuild/openbsd-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/openbsd-x64': [ '0.28.1' ],
+16 silly audit   '@esbuild/openharmony-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/sunos-x64': [ '0.28.1' ],
+16 silly audit   '@esbuild/win32-arm64': [ '0.28.1' ],
+16 silly audit   '@esbuild/win32-ia32': [ '0.28.1' ],
+16 silly audit   '@esbuild/win32-x64': [ '0.28.1' ],
+16 silly audit   '@iconify-json/simple-icons': [ '1.2.92' ],
+16 silly audit   '@iconify/types': [ '2.0.0' ],
+16 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+16 silly audit   '@napi-rs/wasm-runtime': [ '1.2.0' ],
+16 silly audit   '@oxc-project/types': [ '0.139.0' ],
+16 silly audit   '@rolldown/binding-android-arm64': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-darwin-arm64': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-darwin-x64': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-freebsd-x64': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.1.5' ],
+16 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.1.5' ],
+16 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+16 silly audit   '@shikijs/core': [ '4.3.1' ],
+16 silly audit   '@shikijs/engine-javascript': [ '4.3.1' ],
+16 silly audit   '@shikijs/engine-oniguruma': [ '4.3.1' ],
+16 silly audit   '@shikijs/langs': [ '4.3.1' ],
+16 silly audit   '@shikijs/primitive': [ '4.3.1' ],
+16 silly audit   '@shikijs/themes': [ '4.3.1' ],
+16 silly audit   '@shikijs/transformers': [ '4.3.1' ],
+16 silly audit   '@shikijs/types': [ '4.3.1' ],
+16 silly audit   '@shikijs/vscode-textmate': [ '10.0.2' ],
+16 silly audit   '@tybys/wasm-util': [ '0.10.3' ],
+16 silly audit   '@types/hast': [ '3.0.5' ],
+16 silly audit   '@types/linkify-it': [ '5.0.0' ],
+16 silly audit   '@types/markdown-it': [ '14.1.2' ],
+16 silly audit   '@types/mdast': [ '4.0.4' ],
+16 silly audit   '@types/mdurl': [ '2.0.0' ],
+16 silly audit   '@types/unist': [ '3.0.3' ],
+16 silly audit   '@types/web-bluetooth': [ '0.0.21' ],
+16 silly audit   '@ungap/structured-clone': [ '1.3.3' ],
+16 silly audit   '@vitejs/plugin-vue': [ '6.0.8' ],
+16 silly audit   '@vue/compiler-core': [ '3.5.40' ],
+16 silly audit   '@vue/compiler-dom': [ '3.5.40' ],
+16 silly audit   '@vue/compiler-sfc': [ '3.5.40' ],
+16 silly audit   '@vue/compiler-ssr': [ '3.5.40' ],
+16 silly audit   '@vue/devtools-api': [ '8.2.1' ],
+16 silly audit   '@vue/devtools-kit': [ '8.2.1' ],
+16 silly audit   '@vue/devtools-shared': [ '8.2.1' ],
+16 silly audit   '@vue/reactivity': [ '3.5.40' ],
+16 silly audit   '@vue/runtime-core': [ '3.5.40' ],
+16 silly audit   '@vue/runtime-dom': [ '3.5.40' ],
+16 silly audit   '@vue/server-renderer': [ '3.5.40' ],
+16 silly audit   '@vue/shared': [ '3.5.40' ],
+16 silly audit   '@vueuse/core': [ '14.4.0' ],
+16 silly audit   '@vueuse/integrations': [ '14.4.0' ],
+16 silly audit   '@vueuse/metadata': [ '14.4.0' ],
+16 silly audit   '@vueuse/shared': [ '14.4.0' ],
+16 silly audit   birpc: [ '2.9.0' ],
+16 silly audit   ccount: [ '2.0.1' ],
+16 silly audit   'character-entities-html4': [ '2.1.0' ],
+16 silly audit   'character-entities-legacy': [ '3.0.0' ],
+16 silly audit   'comma-separated-tokens': [ '2.0.3' ],
+16 silly audit   csstype: [ '3.2.3' ],
+16 silly audit   dequal: [ '2.0.3' ],
+16 silly audit   'detect-libc': [ '2.1.2' ],
+16 silly audit   devlop: [ '1.1.0' ],
+16 silly audit   entities: [ '7.0.1' ],
+16 silly audit   esbuild: [ '0.28.1' ],
+16 silly audit   'estree-walker': [ '2.0.2' ],
+16 silly audit   fdir: [ '6.5.0' ],
+16 silly audit   'focus-trap': [ '8.2.2' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   'hast-util-to-html': [ '9.0.5' ],
+16 silly audit   'hast-util-whitespace': [ '3.0.0' ],
+16 silly audit   hookable: [ '5.5.3' ],
+16 silly audit   'html-void-elements': [ '3.0.0' ],
+16 silly audit   lightningcss: [ '1.33.0' ],
+16 silly audit   'lightningcss-android-arm64': [ '1.33.0' ],
+16 silly audit   'lightningcss-darwin-arm64': [ '1.33.0' ],
+16 silly audit   'lightningcss-darwin-x64': [ '1.33.0' ],
+16 silly audit   'lightningcss-freebsd-x64': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-arm64-gnu': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-arm64-musl': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-x64-gnu': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-x64-musl': [ '1.33.0' ],
+16 silly audit   'lightningcss-win32-arm64-msvc': [ '1.33.0' ],
+16 silly audit   'lightningcss-win32-x64-msvc': [ '1.33.0' ],
+16 silly audit   'magic-string': [ '0.30.21' ],
+16 silly audit   'mark.js': [ '8.11.1' ],
+16 silly audit   'mdast-util-to-hast': [ '13.2.1' ],
+16 silly audit   'micromark-util-character': [ '2.1.1' ],
+16 silly audit   'micromark-util-encode': [ '2.0.1' ],
+16 silly audit   'micromark-util-sanitize-uri': [ '2.0.1' ],
+16 silly audit   'micromark-util-symbol': [ '2.0.1' ],
+16 silly audit   'micromark-util-types': [ '2.0.2' ],
+16 silly audit   minisearch: [ '7.2.0' ],
+16 silly audit   nanoid: [ '3.3.16' ],
+16 silly audit   'oniguruma-parser': [ '0.12.2' ],
+16 silly audit   'oniguruma-to-es': [ '4.3.6' ],
+16 silly audit   'perfect-debounce': [ '2.1.0' ],
+16 silly audit   picocolors: [ '1.1.1' ],
+16 silly audit   picomatch: [ '4.0.5' ],
+16 silly audit   postcss: [ '8.5.25' ],
+16 silly audit   'property-information': [ '7.2.0' ],
+16 silly audit   regex: [ '6.1.0' ],
+16 silly audit   'regex-recursion': [ '6.0.2' ],
+16 silly audit   'regex-utilities': [ '2.3.0' ],
+16 silly audit   rolldown: [ '1.1.5' ],
+16 silly audit   shiki: [ '4.3.1' ],
+16 silly audit   'source-map-js': [ '1.2.1' ],
+16 silly audit   'space-separated-tokens': [ '2.0.2' ],
+16 silly audit   'stringify-entities': [ '4.0.4' ],
+16 silly audit   tabbable: [ '6.5.0' ],
+16 silly audit   tinyglobby: [ '0.2.17' ],
+16 silly audit   'trim-lines': [ '3.0.1' ],
+16 silly audit   tslib: [ '2.8.1' ],
+16 silly audit   'unist-util-is': [ '6.0.1' ],
+16 silly audit   'unist-util-position': [ '5.0.0' ],
+16 silly audit   'unist-util-stringify-position': [ '4.0.0' ],
+16 silly audit   'unist-util-visit': [ '5.1.0' ],
+16 silly audit   'unist-util-visit-parents': [ '6.0.2' ],
+16 silly audit   vfile: [ '6.0.3' ],
+16 silly audit   'vfile-message': [ '4.0.3' ],
+16 silly audit   vite: [ '8.1.5' ],
+16 silly audit   vitepress: [ '2.0.0-alpha.18' ],
+16 silly audit   vue: [ '3.5.40' ],
+16 silly audit   zwitch: [ '2.0.4' ]
+16 silly audit }
+17 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-x64-msvc
+18 silly reify mark deleted [
+18 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-x64-msvc'
+18 silly reify ]
+19 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-arm64-msvc
+20 silly reify mark deleted [
+20 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-arm64-msvc'
+20 silly reify ]
+21 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-musl
+22 silly reify mark deleted [
+22 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-musl'
+22 silly reify ]
+23 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-gnu
+24 silly reify mark deleted [
+24 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-gnu'
+24 silly reify ]
+25 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-musl
+26 silly reify mark deleted [
+26 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-musl'
+26 silly reify ]
+27 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-gnu
+28 silly reify mark deleted [
+28 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-gnu'
+28 silly reify ]
+29 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm-gnueabihf
+30 silly reify mark deleted [
+30 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm-gnueabihf'
+30 silly reify ]
+31 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-freebsd-x64
+32 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/lightningcss-freebsd-x64' ]
+33 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-darwin-x64
+34 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/lightningcss-darwin-x64' ]
+35 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-android-arm64
+36 silly reify mark deleted [
+36 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-android-arm64'
+36 silly reify ]
+37 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-x64-msvc
+38 silly reify mark deleted [
+38 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-x64-msvc'
+38 silly reify ]
+39 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-arm64-msvc
+40 silly reify mark deleted [
+40 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-arm64-msvc'
+40 silly reify ]
+41 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi
+42 silly reify mark deleted [
+42 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi'
+42 silly reify ]
+43 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core
+44 silly reify mark deleted [
+44 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core'
+44 silly reify ]
+45 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/runtime
+46 silly reify mark deleted [
+46 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/runtime'
+46 silly reify ]
+47 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@napi-rs/wasm-runtime
+48 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@napi-rs/wasm-runtime' ]
+49 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/wasi-threads
+50 silly reify mark deleted [
+50 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/wasi-threads'
+50 silly reify ]
+51 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/tslib
+52 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/tslib' ]
+53 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/core
+54 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/core' ]
+55 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/runtime
+56 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/runtime' ]
+57 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@tybys/wasm-util
+58 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@tybys/wasm-util' ]
+59 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/wasi-threads
+60 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/wasi-threads' ]
+61 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-openharmony-arm64
+62 silly reify mark deleted [
+62 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-openharmony-arm64'
+62 silly reify ]
+63 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-musl
+64 silly reify mark deleted [
+64 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-musl'
+64 silly reify ]
+65 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-gnu
+66 silly reify mark deleted [
+66 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-gnu'
+66 silly reify ]
+67 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-s390x-gnu
+68 silly reify mark deleted [
+68 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-s390x-gnu'
+68 silly reify ]
+69 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-ppc64-gnu
+70 silly reify mark deleted [
+70 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-ppc64-gnu'
+70 silly reify ]
+71 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-musl
+72 silly reify mark deleted [
+72 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-musl'
+72 silly reify ]
+73 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-gnu
+74 silly reify mark deleted [
+74 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm-gnueabihf
+76 silly reify mark deleted [
+76 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm-gnueabihf'
+76 silly reify ]
+77 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-freebsd-x64
+78 silly reify mark deleted [
+78 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-freebsd-x64'
+78 silly reify ]
+79 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-darwin-x64
+80 silly reify mark deleted [
+80 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-darwin-x64'
+80 silly reify ]
+81 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-android-arm64
+82 silly reify mark deleted [
+82 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-android-arm64'
+82 silly reify ]
+83 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-x64
+84 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-x64' ]
+85 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-ia32
+86 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-ia32' ]
+87 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-arm64
+88 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-arm64' ]
+89 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/sunos-x64
+90 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/sunos-x64' ]
+91 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/openharmony-arm64
+92 silly reify mark deleted [
+92 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@esbuild/openharmony-arm64'
+92 silly reify ]
+93 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-x64
+94 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-x64' ]
+95 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-arm64
+96 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-arm64' ]
+97 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-x64
+98 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-x64' ]
+99 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-arm64
+100 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-arm64' ]
+101 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-x64
+102 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-x64' ]
+103 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-s390x
+104 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-s390x' ]
+105 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-riscv64
+106 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-riscv64' ]
+107 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ppc64
+108 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ppc64' ]
+109 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-mips64el
+110 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-mips64el' ]
+111 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-loong64
+112 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-loong64' ]
+113 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ia32
+114 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ia32' ]
+115 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm64
+116 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm64' ]
+117 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm
+118 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm' ]
+119 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-x64
+120 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-x64' ]
+121 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-arm64
+122 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-arm64' ]
+123 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/darwin-x64
+124 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/darwin-x64' ]
+125 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/android-x64
+126 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/android-x64' ]
+127 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm64
+128 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm64' ]
+129 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm
+130 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm' ]
+131 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/aix-ppc64
+132 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/aix-ppc64' ]
+133 silly tarball no local data for @rolldown/binding-darwin-arm64@https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.1.5.tgz. Extracting by manifest.
+134 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.0.tgz. Extracting by manifest.
+135 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 206ms
+136 silly audit report {}
+137 http fetch GET 200 https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.0.tgz 234ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.1.5.tgz 581ms (cache miss)
+139 silly ADD
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD node_modules/@emnapi/wasi-threads
+155 silly ADD node_modules/@emnapi/runtime
+156 silly ADD node_modules/@emnapi/core
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD node_modules/@rolldown/binding-darwin-arm64
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 verbose cwd /Users/krutikapatil/ik-docs
+199 verbose os Darwin 25.6.0
+200 verbose node v20.20.2
+201 verbose npm  v10.8.2
+202 verbose exit 0
+203 info ok

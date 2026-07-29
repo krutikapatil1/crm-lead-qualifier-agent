@@ -1,0 +1,957 @@
+0 verbose cli /Users/krutikapatil/.nvm/versions/node/v18.17.0/bin/node /Users/krutikapatil/.nvm/versions/node/v18.17.0/bin/npm
+1 info using npm@9.6.7
+2 info using node@v18.17.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/Users/krutikapatil/.nvm/versions/node/v18.17.0/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/krutikapatil/ik-docs/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:/Users/krutikapatil/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/Users/krutikapatil/.nvm/versions/node/v18.17.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 7ms
+17 timing npm:load:configload Completed in 7ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 8ms
+23 timing config:load:flatten Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/Users/krutikapatil/ik-docs/.npm-cache/_logs/2026-07-29T23_42_47_387Z-
+26 verbose logfile /Users/krutikapatil/ik-docs/.npm-cache/_logs/2026-07-29T23_42_47_387Z-debug-0.log
+27 timing npm:load:logFile Completed in 5ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 23ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 55ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 1ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 warn EBADENGINE Unsupported engine {
+39 warn EBADENGINE   package: 'rolldown@1.1.5',
+39 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+39 warn EBADENGINE   current: { node: 'v18.17.0', npm: '9.6.7' }
+39 warn EBADENGINE }
+40 warn EBADENGINE Unsupported engine {
+40 warn EBADENGINE   package: 'vite@8.1.5',
+40 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+40 warn EBADENGINE   current: { node: 'v18.17.0', npm: '9.6.7' }
+40 warn EBADENGINE }
+41 timing idealTree Completed in 59ms
+42 timing arborist:ctor Completed in 0ms
+43 timing reify:loadTrees Completed in 75ms
+44 timing reify:diffTrees Completed in 3ms
+45 silly reify moves {}
+46 timing reify:retireShallow Completed in 0ms
+47 timing reify:createSparse Completed in 4ms
+48 timing reify:loadBundles Completed in 0ms
+49 silly audit bulk request {
+49 silly audit   '@algolia/abtesting': [ '1.22.0' ],
+49 silly audit   '@algolia/autocomplete-core': [ '1.17.7' ],
+49 silly audit   '@algolia/autocomplete-plugin-algolia-insights': [ '1.17.7' ],
+49 silly audit   '@algolia/autocomplete-preset-algolia': [ '1.17.7' ],
+49 silly audit   '@algolia/autocomplete-shared': [ '1.17.7' ],
+49 silly audit   '@algolia/client-abtesting': [ '5.56.0' ],
+49 silly audit   '@algolia/client-analytics': [ '5.56.0' ],
+49 silly audit   '@algolia/client-common': [ '5.56.0' ],
+49 silly audit   '@algolia/client-insights': [ '5.56.0' ],
+49 silly audit   '@algolia/client-personalization': [ '5.56.0' ],
+49 silly audit   '@algolia/client-query-suggestions': [ '5.56.0' ],
+49 silly audit   '@algolia/client-search': [ '5.56.0' ],
+49 silly audit   '@algolia/ingestion': [ '1.56.0' ],
+49 silly audit   '@algolia/monitoring': [ '1.56.0' ],
+49 silly audit   '@algolia/recommend': [ '5.56.0' ],
+49 silly audit   '@algolia/requester-browser-xhr': [ '5.56.0' ],
+49 silly audit   '@algolia/requester-fetch': [ '5.56.0' ],
+49 silly audit   '@algolia/requester-node-http': [ '5.56.0' ],
+49 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+49 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+49 silly audit   '@babel/parser': [ '7.29.7' ],
+49 silly audit   '@babel/types': [ '7.29.7' ],
+49 silly audit   '@docsearch/css': [ '3.8.2' ],
+49 silly audit   '@docsearch/js': [ '3.8.2' ],
+49 silly audit   '@docsearch/react': [ '3.8.2' ],
+49 silly audit   '@emnapi/core': [ '2.0.0-alpha.3', '1.11.1' ],
+49 silly audit   '@emnapi/runtime': [ '2.0.0-alpha.3', '1.11.1' ],
+49 silly audit   '@emnapi/wasi-threads': [ '2.0.1', '1.2.2' ],
+49 silly audit   '@esbuild/aix-ppc64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/android-arm': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/android-arm64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/android-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/darwin-arm64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/darwin-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/freebsd-arm64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/freebsd-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-arm': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-arm64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-ia32': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-loong64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-mips64el': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-ppc64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-riscv64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-s390x': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/linux-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/netbsd-arm64': [ '0.28.1' ],
+49 silly audit   '@esbuild/netbsd-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/openbsd-arm64': [ '0.28.1' ],
+49 silly audit   '@esbuild/openbsd-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/openharmony-arm64': [ '0.28.1' ],
+49 silly audit   '@esbuild/sunos-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/win32-arm64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/win32-ia32': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@esbuild/win32-x64': [ '0.28.1', '0.21.5' ],
+49 silly audit   '@iconify-json/simple-icons': [ '1.2.92' ],
+49 silly audit   '@iconify/types': [ '2.0.0' ],
+49 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+49 silly audit   '@napi-rs/wasm-runtime': [ '1.2.0' ],
+49 silly audit   '@oxc-project/types': [ '0.139.0' ],
+49 silly audit   '@rolldown/binding-android-arm64': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-darwin-arm64': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-darwin-x64': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-freebsd-x64': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.1.5' ],
+49 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.1.5' ],
+49 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+49 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-android-arm64': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-darwin-arm64': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-darwin-x64': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-freebsd-x64': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-openbsd-x64': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.62.3' ],
+49 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.62.3' ],
+49 silly audit   '@shikijs/core': [ '2.5.0' ],
+49 silly audit   '@shikijs/engine-javascript': [ '2.5.0' ],
+49 silly audit   '@shikijs/engine-oniguruma': [ '2.5.0' ],
+49 silly audit   '@shikijs/langs': [ '2.5.0' ],
+49 silly audit   '@shikijs/themes': [ '2.5.0' ],
+49 silly audit   '@shikijs/transformers': [ '2.5.0' ],
+49 silly audit   '@shikijs/types': [ '2.5.0' ],
+49 silly audit   '@shikijs/vscode-textmate': [ '10.0.2' ],
+49 silly audit   '@tybys/wasm-util': [ '0.10.3' ],
+49 silly audit   '@types/estree': [ '1.0.9' ],
+49 silly audit   '@types/hast': [ '3.0.5' ],
+49 silly audit   '@types/linkify-it': [ '5.0.0' ],
+49 silly audit   '@types/markdown-it': [ '14.1.2' ],
+49 silly audit   '@types/mdast': [ '4.0.4' ],
+49 silly audit   '@types/mdurl': [ '2.0.0' ],
+49 silly audit   '@types/unist': [ '3.0.3' ],
+49 silly audit   '@types/web-bluetooth': [ '0.0.21' ],
+49 silly audit   '@ungap/structured-clone': [ '1.3.3' ],
+49 silly audit   '@vue/compiler-core': [ '3.5.40' ],
+49 silly audit   '@vue/compiler-dom': [ '3.5.40' ],
+49 silly audit   '@vue/compiler-sfc': [ '3.5.40' ],
+49 silly audit   '@vue/compiler-ssr': [ '3.5.40' ],
+49 silly audit   '@vue/devtools-api': [ '7.7.10' ],
+49 silly audit   '@vue/devtools-kit': [ '7.7.10' ],
+49 silly audit   '@vue/devtools-shared': [ '7.7.10' ],
+49 silly audit   '@vue/reactivity': [ '3.5.40' ],
+49 silly audit   '@vue/runtime-core': [ '3.5.40' ],
+49 silly audit   '@vue/runtime-dom': [ '3.5.40' ],
+49 silly audit   '@vue/server-renderer': [ '3.5.40' ],
+49 silly audit   '@vue/shared': [ '3.5.40' ],
+49 silly audit   '@vueuse/core': [ '12.8.2' ],
+49 silly audit   '@vueuse/integrations': [ '12.8.2' ],
+49 silly audit   '@vueuse/metadata': [ '12.8.2' ],
+49 silly audit   '@vueuse/shared': [ '12.8.2' ],
+49 silly audit   algoliasearch: [ '5.56.0' ],
+49 silly audit   birpc: [ '2.9.0' ],
+49 silly audit   ccount: [ '2.0.1' ],
+49 silly audit   'character-entities-html4': [ '2.1.0' ],
+49 silly audit   'character-entities-legacy': [ '3.0.0' ],
+49 silly audit   'comma-separated-tokens': [ '2.0.3' ],
+49 silly audit   'copy-anything': [ '4.0.5' ],
+49 silly audit   csstype: [ '3.2.3' ],
+49 silly audit   dequal: [ '2.0.3' ],
+49 silly audit   'detect-libc': [ '2.1.2' ],
+49 silly audit   devlop: [ '1.1.0' ],
+49 silly audit   'emoji-regex-xs': [ '1.0.0' ],
+49 silly audit   entities: [ '7.0.1' ],
+49 silly audit   esbuild: [ '0.28.1', '0.21.5' ],
+49 silly audit   'estree-walker': [ '2.0.2' ],
+49 silly audit   fdir: [ '6.5.0' ],
+49 silly audit   'focus-trap': [ '7.8.0' ],
+49 silly audit   fsevents: [ '2.3.3' ],
+49 silly audit   'hast-util-to-html': [ '9.0.5' ],
+49 silly audit   'hast-util-whitespace': [ '3.0.0' ],
+49 silly audit   hookable: [ '5.5.3' ],
+49 silly audit   'html-void-elements': [ '3.0.0' ],
+49 silly audit   'is-what': [ '5.5.0' ],
+49 silly audit   lightningcss: [ '1.33.0' ],
+49 silly audit   'lightningcss-android-arm64': [ '1.33.0' ],
+49 silly audit   'lightningcss-darwin-arm64': [ '1.33.0' ],
+49 silly audit   'lightningcss-darwin-x64': [ '1.33.0' ],
+49 silly audit   'lightningcss-freebsd-x64': [ '1.33.0' ],
+49 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.33.0' ],
+49 silly audit   'lightningcss-linux-arm64-gnu': [ '1.33.0' ],
+49 silly audit   'lightningcss-linux-arm64-musl': [ '1.33.0' ],
+49 silly audit   'lightningcss-linux-x64-gnu': [ '1.33.0' ],
+49 silly audit   'lightningcss-linux-x64-musl': [ '1.33.0' ],
+49 silly audit   'lightningcss-win32-arm64-msvc': [ '1.33.0' ],
+49 silly audit   'lightningcss-win32-x64-msvc': [ '1.33.0' ],
+49 silly audit   'magic-string': [ '0.30.21' ],
+49 silly audit   'mark.js': [ '8.11.1' ],
+49 silly audit   'mdast-util-to-hast': [ '13.2.1' ],
+49 silly audit   'micromark-util-character': [ '2.1.1' ],
+49 silly audit   'micromark-util-encode': [ '2.0.1' ],
+49 silly audit   'micromark-util-sanitize-uri': [ '2.0.1' ],
+49 silly audit   'micromark-util-symbol': [ '2.0.1' ],
+49 silly audit   'micromark-util-types': [ '2.0.2' ],
+49 silly audit   minisearch: [ '7.2.0' ],
+49 silly audit   mitt: [ '3.0.1' ],
+49 silly audit   nanoid: [ '3.3.16' ],
+49 silly audit   'oniguruma-to-es': [ '3.1.1' ],
+49 silly audit   'perfect-debounce': [ '1.0.0' ],
+49 silly audit   picocolors: [ '1.1.1' ],
+49 silly audit   picomatch: [ '4.0.5' ],
+49 silly audit   postcss: [ '8.5.25' ],
+49 silly audit   preact: [ '10.29.7' ],
+49 silly audit   'property-information': [ '7.2.0' ],
+49 silly audit   regex: [ '6.1.0' ],
+49 silly audit   'regex-recursion': [ '6.0.2' ],
+49 silly audit   'regex-utilities': [ '2.3.0' ],
+49 silly audit   rfdc: [ '1.4.1' ],
+49 silly audit   rolldown: [ '1.1.5' ],
+49 silly audit   rollup: [ '4.62.3' ],
+49 silly audit   'search-insights': [ '2.17.3' ],
+49 silly audit   shiki: [ '2.5.0' ],
+49 silly audit   'source-map-js': [ '1.2.1' ],
+49 silly audit   'space-separated-tokens': [ '2.0.2' ],
+49 silly audit   speakingurl: [ '14.0.1' ],
+49 silly audit   'stringify-entities': [ '4.0.4' ],
+49 silly audit   superjson: [ '2.2.6' ],
+49 silly audit   tabbable: [ '6.5.0' ],
+49 silly audit   tinyglobby: [ '0.2.17' ],
+49 silly audit   'trim-lines': [ '3.0.1' ],
+49 silly audit   tslib: [ '2.8.1' ],
+49 silly audit   'unist-util-is': [ '6.0.1' ],
+49 silly audit   'unist-util-position': [ '5.0.0' ],
+49 silly audit   'unist-util-stringify-position': [ '4.0.0' ],
+49 silly audit   'unist-util-visit': [ '5.1.0' ],
+49 silly audit   'unist-util-visit-parents': [ '6.0.2' ],
+49 silly audit   vfile: [ '6.0.3' ],
+49 silly audit   'vfile-message': [ '4.0.3' ],
+49 silly audit   vite: [ '8.1.5', '5.4.21' ],
+49 silly audit   vitepress: [ '1.6.4' ],
+49 silly audit   '@vitejs/plugin-vue': [ '5.2.4' ],
+49 silly audit   vue: [ '3.5.40' ],
+49 silly audit   zwitch: [ '2.0.4' ]
+49 silly audit }
+50 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-x64-msvc
+51 silly reify mark deleted [
+51 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-x64-msvc'
+51 silly reify ]
+52 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-arm64-msvc
+53 silly reify mark deleted [
+53 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-win32-arm64-msvc'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-musl
+55 silly reify mark deleted [
+55 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-musl'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-gnu
+57 silly reify mark deleted [
+57 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-x64-gnu'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-musl
+59 silly reify mark deleted [
+59 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-musl'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-gnu
+61 silly reify mark deleted [
+61 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm64-gnu'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm-gnueabihf
+63 silly reify mark deleted [
+63 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-linux-arm-gnueabihf'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-freebsd-x64
+65 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/lightningcss-freebsd-x64' ]
+66 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-darwin-x64
+67 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/lightningcss-darwin-x64' ]
+68 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/lightningcss-android-arm64
+69 silly reify mark deleted [
+69 silly reify   '/Users/krutikapatil/ik-docs/node_modules/lightningcss-android-arm64'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-x64-msvc
+71 silly reify mark deleted [
+71 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-x64-msvc'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-x64-gnu
+73 silly reify mark deleted [
+73 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-x64-gnu'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-ia32-msvc
+75 silly reify mark deleted [
+75 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-ia32-msvc'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-arm64-msvc
+77 silly reify mark deleted [
+77 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-win32-arm64-msvc'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-openharmony-arm64
+79 silly reify mark deleted [
+79 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-openharmony-arm64'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-openbsd-x64
+81 silly reify mark deleted [
+81 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-openbsd-x64'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-x64-musl
+83 silly reify mark deleted [
+83 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-x64-musl'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-x64-gnu
+85 silly reify mark deleted [
+85 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-x64-gnu'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-s390x-gnu
+87 silly reify mark deleted [
+87 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-s390x-gnu'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-riscv64-musl
+89 silly reify mark deleted [
+89 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-riscv64-musl'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-riscv64-gnu
+91 silly reify mark deleted [
+91 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-riscv64-gnu'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-ppc64-musl
+93 silly reify mark deleted [
+93 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-ppc64-musl'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-ppc64-gnu
+95 silly reify mark deleted [
+95 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-ppc64-gnu'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-loong64-musl
+97 silly reify mark deleted [
+97 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-loong64-musl'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-loong64-gnu
+99 silly reify mark deleted [
+99 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-loong64-gnu'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm64-musl
+101 silly reify mark deleted [
+101 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm64-musl'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm64-gnu
+103 silly reify mark deleted [
+103 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm64-gnu'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm-musleabihf
+105 silly reify mark deleted [
+105 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm-musleabihf'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm-gnueabihf
+107 silly reify mark deleted [
+107 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+107 silly reify ]
+108 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-freebsd-x64
+109 silly reify mark deleted [
+109 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-freebsd-x64'
+109 silly reify ]
+110 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-freebsd-arm64
+111 silly reify mark deleted [
+111 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-freebsd-arm64'
+111 silly reify ]
+112 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-darwin-x64
+113 silly reify mark deleted [
+113 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-darwin-x64'
+113 silly reify ]
+114 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-android-arm64
+115 silly reify mark deleted [
+115 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-android-arm64'
+115 silly reify ]
+116 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-android-arm-eabi
+117 silly reify mark deleted [
+117 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rollup/rollup-android-arm-eabi'
+117 silly reify ]
+118 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-x64-msvc
+119 silly reify mark deleted [
+119 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-x64-msvc'
+119 silly reify ]
+120 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-arm64-msvc
+121 silly reify mark deleted [
+121 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-win32-arm64-msvc'
+121 silly reify ]
+122 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi
+123 silly reify mark deleted [
+123 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi'
+123 silly reify ]
+124 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core
+125 silly reify mark deleted [
+125 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core'
+125 silly reify ]
+126 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/runtime
+127 silly reify mark deleted [
+127 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/runtime'
+127 silly reify ]
+128 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@napi-rs/wasm-runtime
+129 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@napi-rs/wasm-runtime' ]
+130 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/wasi-threads
+131 silly reify mark deleted [
+131 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/wasi-threads'
+131 silly reify ]
+132 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/tslib
+133 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/tslib' ]
+134 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/core
+135 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/core' ]
+136 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/runtime
+137 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/runtime' ]
+138 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@tybys/wasm-util
+139 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@tybys/wasm-util' ]
+140 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/wasi-threads
+141 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/wasi-threads' ]
+142 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-openharmony-arm64
+143 silly reify mark deleted [
+143 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-openharmony-arm64'
+143 silly reify ]
+144 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-musl
+145 silly reify mark deleted [
+145 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-musl'
+145 silly reify ]
+146 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-gnu
+147 silly reify mark deleted [
+147 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-x64-gnu'
+147 silly reify ]
+148 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-s390x-gnu
+149 silly reify mark deleted [
+149 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-s390x-gnu'
+149 silly reify ]
+150 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-ppc64-gnu
+151 silly reify mark deleted [
+151 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-ppc64-gnu'
+151 silly reify ]
+152 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-musl
+153 silly reify mark deleted [
+153 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-musl'
+153 silly reify ]
+154 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-gnu
+155 silly reify mark deleted [
+155 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm64-gnu'
+155 silly reify ]
+156 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm-gnueabihf
+157 silly reify mark deleted [
+157 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-linux-arm-gnueabihf'
+157 silly reify ]
+158 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-freebsd-x64
+159 silly reify mark deleted [
+159 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-freebsd-x64'
+159 silly reify ]
+160 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-darwin-x64
+161 silly reify mark deleted [
+161 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-darwin-x64'
+161 silly reify ]
+162 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-darwin-arm64
+163 silly reify mark deleted [
+163 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-darwin-arm64'
+163 silly reify ]
+164 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-android-arm64
+165 silly reify mark deleted [
+165 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-android-arm64'
+165 silly reify ]
+166 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@napi-rs/wasm-runtime
+167 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@napi-rs/wasm-runtime' ]
+168 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi
+169 silly reify mark deleted [
+169 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi'
+169 silly reify ]
+170 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/core
+171 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/core' ]
+172 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/runtime
+173 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/runtime' ]
+174 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@tybys/wasm-util
+175 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@tybys/wasm-util' ]
+176 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core
+177 silly reify mark deleted [
+177 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core'
+177 silly reify ]
+178 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/runtime
+179 silly reify mark deleted [
+179 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/runtime'
+179 silly reify ]
+180 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@emnapi/wasi-threads
+181 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@emnapi/wasi-threads' ]
+182 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/tslib
+183 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/tslib' ]
+184 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/wasi-threads
+185 silly reify mark deleted [
+185 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/wasi-threads'
+185 silly reify ]
+186 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-x64
+187 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-x64' ]
+188 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-ia32
+189 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-ia32' ]
+190 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-arm64
+191 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/win32-arm64' ]
+192 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/sunos-x64
+193 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/sunos-x64' ]
+194 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/openharmony-arm64
+195 silly reify mark deleted [
+195 silly reify   '/Users/krutikapatil/ik-docs/node_modules/@esbuild/openharmony-arm64'
+195 silly reify ]
+196 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-x64
+197 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-x64' ]
+198 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-arm64
+199 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/openbsd-arm64' ]
+200 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-x64
+201 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-x64' ]
+202 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-arm64
+203 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/netbsd-arm64' ]
+204 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-x64
+205 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-x64' ]
+206 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-s390x
+207 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-s390x' ]
+208 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-riscv64
+209 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-riscv64' ]
+210 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ppc64
+211 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ppc64' ]
+212 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-mips64el
+213 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-mips64el' ]
+214 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-loong64
+215 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-loong64' ]
+216 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ia32
+217 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-ia32' ]
+218 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm64
+219 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm64' ]
+220 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm
+221 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/linux-arm' ]
+222 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-x64
+223 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-x64' ]
+224 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-arm64
+225 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/freebsd-arm64' ]
+226 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/darwin-x64
+227 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/darwin-x64' ]
+228 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/android-x64
+229 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/android-x64' ]
+230 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm64
+231 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm64' ]
+232 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm
+233 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/android-arm' ]
+234 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/@esbuild/aix-ppc64
+235 silly reify mark deleted [ '/Users/krutikapatil/ik-docs/node_modules/@esbuild/aix-ppc64' ]
+236 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/win32-x64
+237 silly reify mark deleted [
+237 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/win32-x64'
+237 silly reify ]
+238 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/win32-ia32
+239 silly reify mark deleted [
+239 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/win32-ia32'
+239 silly reify ]
+240 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/win32-arm64
+241 silly reify mark deleted [
+241 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/win32-arm64'
+241 silly reify ]
+242 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/sunos-x64
+243 silly reify mark deleted [
+243 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/sunos-x64'
+243 silly reify ]
+244 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/openbsd-x64
+245 silly reify mark deleted [
+245 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/openbsd-x64'
+245 silly reify ]
+246 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/netbsd-x64
+247 silly reify mark deleted [
+247 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/netbsd-x64'
+247 silly reify ]
+248 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-x64
+249 silly reify mark deleted [
+249 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-x64'
+249 silly reify ]
+250 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-s390x
+251 silly reify mark deleted [
+251 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-s390x'
+251 silly reify ]
+252 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-riscv64
+253 silly reify mark deleted [
+253 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-riscv64'
+253 silly reify ]
+254 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-ppc64
+255 silly reify mark deleted [
+255 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-ppc64'
+255 silly reify ]
+256 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-mips64el
+257 silly reify mark deleted [
+257 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-mips64el'
+257 silly reify ]
+258 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-loong64
+259 silly reify mark deleted [
+259 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-loong64'
+259 silly reify ]
+260 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-ia32
+261 silly reify mark deleted [
+261 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-ia32'
+261 silly reify ]
+262 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-arm64
+263 silly reify mark deleted [
+263 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-arm64'
+263 silly reify ]
+264 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-arm
+265 silly reify mark deleted [
+265 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/linux-arm'
+265 silly reify ]
+266 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/freebsd-x64
+267 silly reify mark deleted [
+267 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/freebsd-x64'
+267 silly reify ]
+268 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/freebsd-arm64
+269 silly reify mark deleted [
+269 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/freebsd-arm64'
+269 silly reify ]
+270 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/darwin-x64
+271 silly reify mark deleted [
+271 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/darwin-x64'
+271 silly reify ]
+272 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/android-x64
+273 silly reify mark deleted [
+273 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/android-x64'
+273 silly reify ]
+274 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/android-arm64
+275 silly reify mark deleted [
+275 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/android-arm64'
+275 silly reify ]
+276 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/android-arm
+277 silly reify mark deleted [
+277 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/android-arm'
+277 silly reify ]
+278 verbose reify failed optional dependency /Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/aix-ppc64
+279 silly reify mark deleted [
+279 silly reify   '/Users/krutikapatil/ik-docs/node_modules/vitepress/node_modules/@esbuild/aix-ppc64'
+279 silly reify ]
+280 timing reifyNode:node_modules/lightningcss-win32-x64-msvc Completed in 34ms
+281 timing reifyNode:node_modules/lightningcss-win32-arm64-msvc Completed in 33ms
+282 timing reifyNode:node_modules/lightningcss-linux-x64-musl Completed in 33ms
+283 timing reifyNode:node_modules/lightningcss-linux-x64-gnu Completed in 33ms
+284 timing reifyNode:node_modules/lightningcss-linux-arm64-musl Completed in 33ms
+285 timing reifyNode:node_modules/lightningcss-linux-arm64-gnu Completed in 33ms
+286 timing reifyNode:node_modules/lightningcss-linux-arm-gnueabihf Completed in 34ms
+287 timing reifyNode:node_modules/lightningcss-freebsd-x64 Completed in 34ms
+288 timing reifyNode:node_modules/lightningcss-darwin-x64 Completed in 34ms
+289 timing reifyNode:node_modules/lightningcss-android-arm64 Completed in 34ms
+290 timing reifyNode:node_modules/@rollup/rollup-win32-x64-msvc Completed in 34ms
+291 timing reifyNode:node_modules/@rollup/rollup-win32-x64-gnu Completed in 34ms
+292 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 34ms
+293 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 34ms
+294 timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 34ms
+295 timing reifyNode:node_modules/@rollup/rollup-openbsd-x64 Completed in 34ms
+296 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 34ms
+297 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 34ms
+298 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 34ms
+299 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 34ms
+300 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 34ms
+301 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-musl Completed in 34ms
+302 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 34ms
+303 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-musl Completed in 34ms
+304 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 34ms
+305 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 34ms
+306 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 34ms
+307 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 33ms
+308 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 33ms
+309 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 33ms
+310 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 33ms
+311 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 33ms
+312 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 33ms
+313 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 33ms
+314 timing reifyNode:node_modules/@rolldown/binding-win32-x64-msvc Completed in 33ms
+315 timing reifyNode:node_modules/@rolldown/binding-win32-arm64-msvc Completed in 33ms
+316 timing reifyNode:node_modules/@rolldown/binding-wasm32-wasi Completed in 33ms
+317 timing reifyNode:node_modules/@rolldown/binding-openharmony-arm64 Completed in 33ms
+318 timing reifyNode:node_modules/@rolldown/binding-linux-x64-musl Completed in 33ms
+319 timing reifyNode:node_modules/@rolldown/binding-linux-x64-gnu Completed in 33ms
+320 timing reifyNode:node_modules/@rolldown/binding-linux-s390x-gnu Completed in 33ms
+321 timing reifyNode:node_modules/@rolldown/binding-linux-ppc64-gnu Completed in 34ms
+322 timing reifyNode:node_modules/@rolldown/binding-linux-arm64-musl Completed in 34ms
+323 timing reifyNode:node_modules/@rolldown/binding-linux-arm64-gnu Completed in 34ms
+324 timing reifyNode:node_modules/@rolldown/binding-linux-arm-gnueabihf Completed in 34ms
+325 timing reifyNode:node_modules/@rolldown/binding-freebsd-x64 Completed in 34ms
+326 timing reifyNode:node_modules/@rolldown/binding-darwin-x64 Completed in 34ms
+327 timing reifyNode:node_modules/@rolldown/binding-darwin-arm64 Completed in 34ms
+328 timing reifyNode:node_modules/@rolldown/binding-android-arm64 Completed in 34ms
+329 timing reifyNode:node_modules/@napi-rs/wasm-runtime Completed in 34ms
+330 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 34ms
+331 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 34ms
+332 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 34ms
+333 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 34ms
+334 timing reifyNode:node_modules/@esbuild/openharmony-arm64 Completed in 34ms
+335 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 34ms
+336 timing reifyNode:node_modules/@esbuild/openbsd-arm64 Completed in 34ms
+337 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 34ms
+338 timing reifyNode:node_modules/@esbuild/netbsd-arm64 Completed in 34ms
+339 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 34ms
+340 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 34ms
+341 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 33ms
+342 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 33ms
+343 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 33ms
+344 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 33ms
+345 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 33ms
+346 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 33ms
+347 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 33ms
+348 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 33ms
+349 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 33ms
+350 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 33ms
+351 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 33ms
+352 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 33ms
+353 timing reifyNode:node_modules/@esbuild/android-arm Completed in 33ms
+354 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 33ms
+355 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/win32-x64 Completed in 33ms
+356 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/win32-ia32 Completed in 33ms
+357 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/win32-arm64 Completed in 33ms
+358 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/sunos-x64 Completed in 34ms
+359 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/openbsd-x64 Completed in 34ms
+360 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/netbsd-x64 Completed in 34ms
+361 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-x64 Completed in 34ms
+362 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-s390x Completed in 34ms
+363 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-riscv64 Completed in 34ms
+364 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-ppc64 Completed in 34ms
+365 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-mips64el Completed in 34ms
+366 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-loong64 Completed in 34ms
+367 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-ia32 Completed in 34ms
+368 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-arm64 Completed in 34ms
+369 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/linux-arm Completed in 34ms
+370 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/freebsd-x64 Completed in 34ms
+371 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/freebsd-arm64 Completed in 34ms
+372 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/darwin-x64 Completed in 34ms
+373 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/android-x64 Completed in 34ms
+374 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/android-arm64 Completed in 34ms
+375 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/android-arm Completed in 34ms
+376 timing reifyNode:node_modules/vitepress/node_modules/@esbuild/aix-ppc64 Completed in 33ms
+377 timing reifyNode:node_modules/@emnapi/wasi-threads Completed in 62ms
+378 timing reifyNode:node_modules/tslib Completed in 66ms
+379 timing reifyNode:node_modules/@emnapi/runtime Completed in 65ms
+380 timing reifyNode:node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/wasi-threads Completed in 67ms
+381 timing reifyNode:node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/runtime Completed in 69ms
+382 timing reifyNode:node_modules/@emnapi/core Completed in 70ms
+383 timing reifyNode:node_modules/@tybys/wasm-util Completed in 74ms
+384 timing reifyNode:node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core Completed in 75ms
+385 timing reify:unpack Completed in 77ms
+386 timing reify:unretire Completed in 0ms
+387 timing build:queue Completed in 2ms
+388 timing build:deps Completed in 2ms
+389 timing build Completed in 2ms
+390 timing reify:build Completed in 2ms
+391 timing reify:trash Completed in 11ms
+392 timing reify:save Completed in 27ms
+393 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 212ms
+394 timing auditReport:getReport Completed in 216ms
+395 silly audit report {
+395 silly audit report   esbuild: [
+395 silly audit report     {
+395 silly audit report       id: 1102341,
+395 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+395 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+395 silly audit report       severity: 'moderate',
+395 silly audit report       vulnerable_versions: '<=0.24.2',
+395 silly audit report       cwe: [Array],
+395 silly audit report       cvss: [Object]
+395 silly audit report     }
+395 silly audit report   ],
+395 silly audit report   vite: [
+395 silly audit report     {
+395 silly audit report       id: 1120784,
+395 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+395 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+395 silly audit report       severity: 'moderate',
+395 silly audit report       vulnerable_versions: '<=6.4.2',
+395 silly audit report       cwe: [Array],
+395 silly audit report       cvss: [Object]
+395 silly audit report     },
+395 silly audit report     {
+395 silly audit report       id: 1116229,
+395 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+395 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+395 silly audit report       severity: 'moderate',
+395 silly audit report       vulnerable_versions: '<=6.4.1',
+395 silly audit report       cwe: [Array],
+395 silly audit report       cvss: [Object]
+395 silly audit report     },
+395 silly audit report     {
+395 silly audit report       id: 1123525,
+395 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+395 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+395 silly audit report       severity: 'high',
+395 silly audit report       vulnerable_versions: '<=6.4.2',
+395 silly audit report       cwe: [Array],
+395 silly audit report       cvss: [Object]
+395 silly audit report     }
+395 silly audit report   ]
+395 silly audit report }
+396 timing metavuln:cache:get:security-advisory:esbuild:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 4ms
+397 timing metavuln:cache:get:security-advisory:vite:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 3ms
+398 timing metavuln:cache:get:security-advisory:vite:eMMc8JhNvO5glHecr/Tzj6irpQ2XClO6WLy0eMQ1runry3c/+QJOQWsEHiljttVj4U5BjLuVLZPqZyDVgTsriA== Completed in 4ms
+399 timing metavuln:cache:get:security-advisory:vite:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 4ms
+400 http fetch GET 200 https://registry.npmjs.org/esbuild 9ms (cache hit)
+401 timing metavuln:packument:esbuild Completed in 12ms
+402 timing metavuln:load:security-advisory:esbuild:1102341 Completed in 2ms
+403 timing metavuln:calculate:security-advisory:esbuild:1102341 Completed in 15ms
+404 http fetch GET 200 https://registry.npmjs.org/vite 16ms (cache hit)
+405 timing metavuln:packument:vite Completed in 26ms
+406 timing metavuln:load:security-advisory:vite:1120784 Completed in 4ms
+407 timing metavuln:calculate:security-advisory:vite:1120784 Completed in 31ms
+408 timing metavuln:load:security-advisory:vite:1116229 Completed in 5ms
+409 timing metavuln:calculate:security-advisory:vite:1116229 Completed in 36ms
+410 timing metavuln:load:security-advisory:vite:1123525 Completed in 2ms
+411 timing metavuln:calculate:security-advisory:vite:1123525 Completed in 38ms
+412 timing metavuln:cache:get:security-advisory:vite:tMBsdAS7JBTyRORp0YaJR984WAAsOxgmReSLBN0Nd41GhzEakjROICqAJ31iOdYG5Ijo/MlJ01p3ig1iN88+Tw== Completed in 1ms
+413 timing metavuln:load:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 2ms
+414 timing metavuln:calculate:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 3ms
+415 timing metavuln:cache:get:security-advisory:vitepress:1zafN6B9VeAeUNk4g+cTRkdpB81XhOpdWhzIWPawWtzuwu8M4EXJd3kRRzbiAzIh5kLcp0kfz0kE4KpQXOq10A== Completed in 2ms
+416 timing metavuln:cache:get:security-advisory:@vitejs/plugin-vue:76huywcqJpiBb+m3QUd89+ELopkfRDVaL959lvemqtY+XwiMvfsQRfiH68BdVKXMK+e/VJT3atfSHjrUzO2uyg== Completed in 1ms
+417 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-vue 3ms (cache hit)
+418 timing metavuln:packument:@vitejs/plugin-vue Completed in 4ms
+419 timing metavuln:load:security-advisory:@vitejs/plugin-vue:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 0ms
+420 timing metavuln:calculate:security-advisory:@vitejs/plugin-vue:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 4ms
+421 http fetch GET 200 https://registry.npmjs.org/vitepress 8ms (cache hit)
+422 timing metavuln:packument:vitepress Completed in 13ms
+423 timing metavuln:load:security-advisory:vitepress:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 2ms
+424 timing metavuln:calculate:security-advisory:vitepress:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 15ms
+425 timing auditReport:init Completed in 66ms
+426 timing reify:audit Completed in 282ms
+427 timing reify Completed in 368ms
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD node_modules/@emnapi/wasi-threads
+468 silly ADD node_modules/@emnapi/runtime
+469 silly ADD node_modules/@emnapi/core
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly ADD
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD
+489 silly ADD
+490 silly ADD
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 silly ADD
+504 silly ADD
+505 silly ADD
+506 silly ADD
+507 silly ADD
+508 silly ADD
+509 silly ADD
+510 silly ADD
+511 silly ADD
+512 silly ADD
+513 silly ADD
+514 silly ADD
+515 silly ADD
+516 silly ADD
+517 silly ADD
+518 silly ADD
+519 silly ADD
+520 silly ADD
+521 silly ADD
+522 silly ADD
+523 silly ADD
+524 silly ADD
+525 silly ADD
+526 silly ADD
+527 silly ADD
+528 silly ADD
+529 silly ADD
+530 silly ADD
+531 silly ADD
+532 silly ADD
+533 timing command:install Completed in 388ms
+534 verbose exit 0
+535 timing npm Completed in 497ms
+536 info ok
